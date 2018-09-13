@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+.row div{z-index:1; margin-top:5px;}
+.icon-imgs{width:80px; height:auto; margin-top:30px;}
+.txt-center{text-align: center;}
+.banner{align-items: center; background-image: url(../img/top-banner.jpg); background-repeat:no-repeat;}
+.banner-bottom{align-items: center; background-image: url(../img/overlay.jpg); background-repeat:no-repeat;}
+.work-banner{align-items: center; background-image: url(../img/work-banner.jpg); background-repeat:no-repeat;}
+.avantor-banner{align-items: center; background-image: url(../img/avantor/avantor-banner.jpg); background-repeat:no-repeat;}
+.myq-banner{align-items: center; background-image: url(../img/myq/myq-banner.jpg); background-repeat:no-repeat;}
+.a1studio-banner{align-items: center; background-image: url(../img/a1studios/a1studio-banner.jpg); background-repeat:no-repeat;}
+.ccs-banner{align-items: center; background-image: url(../img/ccs/ccs-banner.jpg); background-repeat:no-repeat;}
+.se-banner{align-items: center; background-image: url(../img/se/se-banner.jpg); background-repeat:no-repeat;}
+.dentom-banner{align-items: center; background-image: url(../img/dentom/dentom-banner.jpg); background-repeat:no-repeat;}
+.ci-banner{align-items: center; background-image: url(../img/ci/ci-banner.jpg); background-repeat:no-repeat;}
+.ga-banner{align-items: center; background-image: url(../img/ga/ga-banner.jpg); background-repeat:no-repeat;}
+.gyrox-banner{align-items: center; background-image: url(../img/gyrox/gyrox-banner.jpg); background-repeat:no-repeat;}
+.pg-banner{align-items: center; background-image: url(../img/pg/pg-banner.jpg); background-repeat:no-repeat;}
+.merck-banner{align-items: center; background-image: url(../img/merck/merck-banner.jpg); background-repeat:no-repeat;}
+.others-banner{align-items: center; background-image: url(../img/others/others-banner.jpg); background-repeat:no-repeat;}
+.footer-copy{font-size:12px;}
+.bottompage{z-index:5;}
+.bottompage img{width:100%;}
+video{width:100%;}
+#zoom{cursor:zoom-in;}
+.caption{font-style:italic; font-size:0.8rem; color:#777;padding-top:0.5rem;}
+
+
+/*Media Queries*/
+
+@media (min-width:1919px){
+	.banner, .banner-bottom, .work-banner, .avantor-banner, .myq-banner, .a1studio-banner, .ccs-banner, .se-banner, .dentom-banner, .ci-banner, .ga-banner, .gyrox-banner, .pg-banner, .merck-banner, .others-banner  {
+		width: 100vw !important;
+	}
+}
